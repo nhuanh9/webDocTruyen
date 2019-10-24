@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web đọc truyện</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 5px;
+        }
+        .head{
+            display: inline-block;
+        }
+        #logo{
+            width: 20%;
+            text-align: center;
+            float: left;
+            height: 100px;
+            background: aliceblue;
+            line-height: 100px;
+        }
+        #banner{
+            float: left;
+            text-align: center;
+            height: 100px;
+            background: cadetblue;
+            width: 77%;
+            padding-top: 30px;
+        }
+        #search{
+            text-align: center;
+            float: right;
+            width: 80%;
+        }
+        .navbar{
+            width: 100%;
+            background: greenyellow;
+        }
+        .select{
+            width: 20%;
+            float: left;
+            background: #ff605b;
+        }
+        .productName, .title, .view {
+            text-align: center;
+        }
+
+        .productName {
+            font-weight: bold;
+        }
+
+        .thumbnail a {
+            margin-right: 5px;
+            text-align: center;
+            float: left;
+        }
+
+        .thumbnail {
+            padding: 10px;
+        }
+
+        .title {
+            margin-left: 20%;
+        }
+        p{
+            font-size: 10px;
+        }
+        input{
+            width: 40%;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 60% !important;
+        }
+    </style>
+</head>
+<body>
+<div class="head" id="logo">Truyện</div>
+<div class="head" id="banner">
+    <form action="" id="search">
+        <input type="text" placeholder="Nhập tên truyện hoặc tên tác giả cần tìm">
+        <button>Tìm kiếm truyện</button>
+        <p>Chúc các bạn đọc truyện vui vẻ</p>
+    </form>
+</div>
+<div class="navbar">
+    <a href="#">Trang chủ</a>
+    <a href="#">Thể loại</a>
+    <a href="#">Ngôn tình</a>
+    <a href="#">Truyện teen</a>
+    <a href="#">Truyện mới</a>
+    <a href="#">Truyện tranh</a>
+    <a href="#">Read novels</a>
+</div>
+<div class="select">
+    <ul>
+        <li><a href="#">Ngôn tình</a></li>
+        <li><a href="#">Truyện teen</a></li>
+        <li><a href="#">Xuyên không</a></li>
+        <li><a href="#">Kiếm hiệp</a></li>
+        <li><a href="#">Tiên hiệp</a></li>
+        <li><a href="#">Sắc hiệp</a></li>
+        <li><a href="#">Lịch sử</a></li>
+        <li><a href="#">Quân sự</a></li>
+        <li><a href="#">Đô thị</a></li>
+        <li><a href="#">Võng du</a></li>
+        <li><a href="#">Dị năng</a></li>
+        <li><a href="#">Khoa huyễn</a></li>
+        <li><a href="#">Trinh thám</a></li>
+        <li><a href="#">Truyện ma</a></li>
+    </ul>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <img src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                     class="img-thumbnail">
+                <div class="productName">Product 1</div>
+                <div class="title"><a class="btn btn-outline-success">Đại chúa tể</a></div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <img src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                     class="img-thumbnail">
+                <div class="productName">Product 1</div>
+                <div class="title"><a class="btn btn-outline-success">Order</a></div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <img src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                     class="img-thumbnail">
+                <div class="productName">Product 1</div>
+                <div class="title"><a class="btn btn-outline-success">Order</a></div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <img src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                     class="img-thumbnail">
+                <div class="productName">Product 1</div>
+                <div class="title"><a class="btn btn-outline-success">Order</a></div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <img src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                     class="img-thumbnail">
+                <div class="productName">Product 1</div>
+                <div class="title"><a class="btn btn-outline-success">Order</a></div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <img src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                     class="img-thumbnail">
+                <div class="productName">Product 1</div>
+                <div class="title"><a class="btn btn-outline-success">Order</a></div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <img src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                     class="img-thumbnail">
+                <div class="productName">Product 1</div>
+                <div class="title"><a class="btn btn-outline-success">Order</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
